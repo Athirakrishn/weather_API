@@ -25,8 +25,7 @@ function App() {
     style={{backgroundImage: "url('https://i.pinimg.com/1200x/3c/fd/3f/3cfd3fa04ddf16dd65a7df5f4496271d.jpg')",
     backgroundSize: "cover",
     backgroundPosition: "center",height:"80vh",width:"140vh" ,display: "flex", boxShadow: "0 4px 20px rgba(0,0,0,0.2)",borderRadius: "10px",}}>
-     <div className='d-flex justify-content-center align-items-center' style={{ flex: 4, padding: "20px", background: "" }}>  <h3 style={{position:"fixed",top:"100px", left:"300px"}}>WEATHER 🌦️</h3>
-      
+     <div className='d-flex justify-content-center align-items-center' style={{ flex: 4, padding: "20px", background: "" }}>  
          {weather && weather.main && (
           <div className=" text-center mt-3 justify-content-center align-items-center">
             <h1>{weather.weather[0].main} </h1> 
